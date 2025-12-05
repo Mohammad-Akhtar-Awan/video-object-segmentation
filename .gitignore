@@ -1,0 +1,44 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data and Results (Keep results, exclude large files)
+data/DAVIS test/JPEGImages/Full-Resolution/*
+davis_vos_results/sample_frames/*
+davis_vos_results/segmented_videos/*
+inference_results/*
+segmentation_test_results/*
+
+# Large Files
+*.mp4
+*.avi
+*.mov
+*.flv
+
+# Logs
+*.log
+davis_vos_output.log
+
+# OS
+Thumbs.db
+.DS_Store
