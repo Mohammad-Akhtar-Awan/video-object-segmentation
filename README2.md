@@ -8,6 +8,46 @@
 
 ---
 
+<!-- Visual gallery: GIF posters that play the full segmented MP4s inline -->
+## 🎞️ Visual Gallery
+
+- Click any poster to play the full segmented video (same embedded size). GIFs are used as posters for quick preview.
+
+<div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start">
+    <div style="text-align:center">
+        <video controls width="480" poster="davis_vos_results/reports/gifs/baseball_preview.gif" preload="none">
+            <source src="davis_vos_results/segmented_videos/baseball_segmentation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div>baseball</div>
+    </div>
+
+    <div style="text-align:center">
+        <video controls width="480" poster="davis_vos_results/reports/gifs/city-ride_preview.gif" preload="none">
+            <source src="davis_vos_results/segmented_videos/city-ride_segmentation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div>city-ride</div>
+    </div>
+
+    <div style="text-align:center">
+        <video controls width="480" poster="davis_vos_results/reports/gifs/horses-kids_preview.gif" preload="none">
+            <source src="davis_vos_results/segmented_videos/horses-kids_segmentation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div>horses-kids</div>
+    </div>
+
+    <div style="text-align:center">
+        <video controls width="480" poster="davis_vos_results/reports/gifs/music-band_preview.gif" preload="none">
+            <source src="davis_vos_results/segmented_videos/music-band_segmentation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div>music-band</div>
+    </div>
+
+</div>
+
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
